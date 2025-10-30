@@ -1,0 +1,7 @@
+﻿fraud_type,incident_count,financial_loss_millions,detection_rate,prevention_rate,avg_resolution_time_hours,data_source
+信用卡欺诈,450,25.5,98.5,96.8,2.5,"Antom风控系统, 欺诈分析报告, 2024年Q4"
+身份盗用,320,18.2,95.2,93.5,4.2,"Antom风控系统, 欺诈分析报告, 2024年Q4"
+账户接管,280,15.8,92.8,90.2,6.8,"Antom风控系统, 欺诈分析报告, 2024年Q4"
+虚假交易,180,12.3,89.5,87.8,8.5,"Antom风控系统, 欺诈分析报告, 2024年Q4"
+洗钱,120,8.9,85.2,82.5,12.3,"Antom风控系统, 欺诈分析报告, 2024年Q4"
+其他,80,5.2,78.9,75.6,15.6,"Antom风控系统, 欺诈分析报告, 2024年Q4"

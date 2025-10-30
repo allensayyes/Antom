@@ -1,0 +1,7 @@
+﻿region,merchants_millions,consumers_millions,transaction_volume_billions,growth_rate,market_share,avg_transaction_value,data_source
+亚太地区,45,800,600,15.2,35.2,85,"Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+欧洲,25,400,300,12.8,18.5,120,"Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+北美,20,300,250,8.5,14.7,150,"Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+拉美,15,200,150,22.3,11.0,75,"Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+中东非洲,10,100,100,18.7,7.4,90,"Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+其他,5,50,50,10.1,3.7,100,"Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"

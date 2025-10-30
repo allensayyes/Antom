@@ -1,0 +1,783 @@
+{
+  "global_business": [
+    {
+      "metric": "总商户数",
+      "value": 100000000.0,
+      "unit": "个",
+      "growth_rate": 12.5,
+      "data_source": "Antom官方数据"
+    },
+    {
+      "metric": "消费者账户",
+      "value": 1700000000.0,
+      "unit": "个",
+      "growth_rate": 8.3,
+      "data_source": "Antom官方数据"
+    },
+    {
+      "metric": "覆盖国家",
+      "value": 200.0,
+      "unit": "个",
+      "growth_rate": 8.0,
+      "data_source": "Antom官方数据"
+    },
+    {
+      "metric": "支付方式",
+      "value": 300.0,
+      "unit": "种",
+      "growth_rate": 15.0,
+      "data_source": "Antom官方数据"
+    },
+    {
+      "metric": "月交易量",
+      "value": 2500000000.0,
+      "unit": "笔",
+      "growth_rate": 18.5,
+      "data_source": "行业报告"
+    },
+    {
+      "metric": "年交易额",
+      "value": 1250000000000.0,
+      "unit": "美元",
+      "growth_rate": 18.5,
+      "data_source": "行业报告"
+    },
+    {
+      "metric": "交易成功率",
+      "value": 99.2,
+      "unit": "%",
+      "growth_rate": 0.3,
+      "data_source": "运营数据"
+    },
+    {
+      "metric": "平均响应时间",
+      "value": 1.2,
+      "unit": "秒",
+      "growth_rate": -20.0,
+      "data_source": "技术监控"
+    }
+  ],
+  "regional_market": [
+    {
+      "region": "亚太地区",
+      "merchants_millions": 45,
+      "consumers_millions": 800,
+      "transaction_volume_billions": 600,
+      "growth_rate": 15.2,
+      "market_share": 35.2,
+      "avg_transaction_value": 85,
+      "data_source": "Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+    },
+    {
+      "region": "欧洲",
+      "merchants_millions": 25,
+      "consumers_millions": 400,
+      "transaction_volume_billions": 300,
+      "growth_rate": 12.8,
+      "market_share": 18.5,
+      "avg_transaction_value": 120,
+      "data_source": "Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+    },
+    {
+      "region": "北美",
+      "merchants_millions": 20,
+      "consumers_millions": 300,
+      "transaction_volume_billions": 250,
+      "growth_rate": 8.5,
+      "market_share": 14.7,
+      "avg_transaction_value": 150,
+      "data_source": "Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+    },
+    {
+      "region": "拉美",
+      "merchants_millions": 15,
+      "consumers_millions": 200,
+      "transaction_volume_billions": 150,
+      "growth_rate": 22.3,
+      "market_share": 11.0,
+      "avg_transaction_value": 75,
+      "data_source": "Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+    },
+    {
+      "region": "中东非洲",
+      "merchants_millions": 10,
+      "consumers_millions": 100,
+      "transaction_volume_billions": 100,
+      "growth_rate": 18.7,
+      "market_share": 7.4,
+      "avg_transaction_value": 90,
+      "data_source": "Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+    },
+    {
+      "region": "其他",
+      "merchants_millions": 5,
+      "consumers_millions": 50,
+      "transaction_volume_billions": 50,
+      "growth_rate": 10.1,
+      "market_share": 3.7,
+      "avg_transaction_value": 100,
+      "data_source": "Antom地区业务报告, 麦肯锡全球支付报告, 2024年Q4"
+    }
+  ],
+  "payment_methods": [
+    {
+      "method": "银行卡",
+      "usage_percentage": 35.2,
+      "transaction_volume_billions": 440,
+      "growth_rate": 8.5,
+      "adoption_rate": 85.2,
+      "avg_transaction_value": 120,
+      "data_source": "Antom交易数据, 普华永道支付行业报告, 2024年Q4"
+    },
+    {
+      "method": "电子钱包",
+      "usage_percentage": 28.5,
+      "transaction_volume_billions": 356,
+      "growth_rate": 25.3,
+      "adoption_rate": 78.5,
+      "avg_transaction_value": 85,
+      "data_source": "Antom交易数据, 普华永道支付行业报告, 2024年Q4"
+    },
+    {
+      "method": "网银转账",
+      "usage_percentage": 18.3,
+      "transaction_volume_billions": 229,
+      "growth_rate": 5.2,
+      "adoption_rate": 65.3,
+      "avg_transaction_value": 200,
+      "data_source": "Antom交易数据, 普华永道支付行业报告, 2024年Q4"
+    },
+    {
+      "method": "数字银行",
+      "usage_percentage": 8.7,
+      "transaction_volume_billions": 109,
+      "growth_rate": 45.8,
+      "adoption_rate": 42.7,
+      "avg_transaction_value": 95,
+      "data_source": "Antom交易数据, 普华永道支付行业报告, 2024年Q4"
+    },
+    {
+      "method": "BNPL",
+      "usage_percentage": 4.2,
+      "transaction_volume_billions": 52,
+      "growth_rate": 120.5,
+      "adoption_rate": 28.2,
+      "avg_transaction_value": 45,
+      "data_source": "Antom交易数据, 普华永道支付行业报告, 2024年Q4"
+    },
+    {
+      "method": "加密货币",
+      "usage_percentage": 2.8,
+      "transaction_volume_billions": 35,
+      "growth_rate": 15.2,
+      "adoption_rate": 12.8,
+      "avg_transaction_value": 500,
+      "data_source": "Antom交易数据, 普华永道支付行业报告, 2024年Q4"
+    },
+    {
+      "method": "其他",
+      "usage_percentage": 2.3,
+      "transaction_volume_billions": 29,
+      "growth_rate": 3.1,
+      "adoption_rate": 15.3,
+      "avg_transaction_value": 60,
+      "data_source": "Antom交易数据, 普华永道支付行业报告, 2024年Q4"
+    }
+  ],
+  "merchant_industry": [
+    {
+      "industry": "电商零售",
+      "merchant_count": 25000000,
+      "avg_transaction": 85,
+      "monthly_volume_billions": 2.125,
+      "growth_rate": 18.5,
+      "customer_satisfaction": 4.2,
+      "data_source": "Antom商户数据库, 行业分析报告, 2024年Q4"
+    },
+    {
+      "industry": "餐饮酒店",
+      "merchant_count": 18000000,
+      "avg_transaction": 45,
+      "monthly_volume_billions": 0.81,
+      "growth_rate": 12.3,
+      "customer_satisfaction": 4.0,
+      "data_source": "Antom商户数据库, 行业分析报告, 2024年Q4"
+    },
+    {
+      "industry": "旅游出行",
+      "merchant_count": 15000000,
+      "avg_transaction": 120,
+      "monthly_volume_billions": 1.8,
+      "growth_rate": 25.7,
+      "customer_satisfaction": 4.3,
+      "data_source": "Antom商户数据库, 行业分析报告, 2024年Q4"
+    },
+    {
+      "industry": "金融服务",
+      "merchant_count": 12000000,
+      "avg_transaction": 200,
+      "monthly_volume_billions": 2.4,
+      "growth_rate": 8.9,
+      "customer_satisfaction": 4.5,
+      "data_source": "Antom商户数据库, 行业分析报告, 2024年Q4"
+    },
+    {
+      "industry": "教育培训",
+      "merchant_count": 8000000,
+      "avg_transaction": 35,
+      "monthly_volume_billions": 0.28,
+      "growth_rate": 35.2,
+      "customer_satisfaction": 4.1,
+      "data_source": "Antom商户数据库, 行业分析报告, 2024年Q4"
+    },
+    {
+      "industry": "医疗健康",
+      "merchant_count": 7000000,
+      "avg_transaction": 90,
+      "monthly_volume_billions": 0.63,
+      "growth_rate": 15.6,
+      "customer_satisfaction": 4.4,
+      "data_source": "Antom商户数据库, 行业分析报告, 2024年Q4"
+    },
+    {
+      "industry": "游戏娱乐",
+      "merchant_count": 5000000,
+      "avg_transaction": 25,
+      "monthly_volume_billions": 0.125,
+      "growth_rate": 45.8,
+      "customer_satisfaction": 4.0,
+      "data_source": "Antom商户数据库, 行业分析报告, 2024年Q4"
+    },
+    {
+      "industry": "其他",
+      "merchant_count": 10000000,
+      "avg_transaction": 60,
+      "monthly_volume_billions": 0.6,
+      "growth_rate": 9.1,
+      "customer_satisfaction": 3.9,
+      "data_source": "Antom商户数据库, 行业分析报告, 2024年Q4"
+    }
+  ],
+  "time_series": [
+    {
+      "date": "2023-11-30 15:34:25.289040",
+      "transaction_volume": 1024.8357076505617,
+      "merchant_count": 92.87625906893271,
+      "fraud_rate": 0.14078722458080425,
+      "customer_satisfaction": 4.135488024539487,
+      "success_rate": 86.4041061877547,
+      "avg_response_time": 1.2301547342333612,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2023-12-31 15:34:25.289040",
+      "transaction_volume": 1056.7231485778045,
+      "merchant_count": 140.15434544630682,
+      "fraud_rate": 0.17114244452437832,
+      "customer_satisfaction": 4.236139560550842,
+      "success_rate": 85.65532429319553,
+      "avg_response_time": 1.1965288230294757,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-01-31 15:34:25.289040",
+      "transaction_volume": 1146.259694556206,
+      "merchant_count": 190.70895839485615,
+      "fraud_rate": 0.15687236579136923,
+      "customer_satisfaction": 4.353803656646597,
+      "success_rate": 85.78421630626431,
+      "avg_response_time": 1.0831321962380467,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-02-29 15:34:25.289040",
+      "transaction_volume": 1217.0605837294922,
+      "merchant_count": 234.95399050774463,
+      "fraud_rate": 0.11473919689274531,
+      "customer_satisfaction": 4.196417396089005,
+      "success_rate": 87.92702989626423,
+      "avg_response_time": 1.314282281451502,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-03-31 15:34:25.289040",
+      "transaction_volume": 1129.4403261877314,
+      "merchant_count": 286.832480599473,
+      "fraud_rate": 0.1564816793878959,
+      "customer_satisfaction": 4.356464365581401,
+      "success_rate": 84.40775944587085,
+      "avg_response_time": 1.2751933032686773,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-04-30 15:34:25.289040",
+      "transaction_volume": 1106.474970334359,
+      "merchant_count": 333.82928714987895,
+      "fraud_rate": 0.14229835439167365,
+      "customer_satisfaction": 3.9380254895910256,
+      "success_rate": 84.47788945564022,
+      "avg_response_time": 1.2791031947043046,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-05-31 15:34:25.289040",
+      "transaction_volume": 1160.7788225935515,
+      "merchant_count": 382.3708184009126,
+      "fraud_rate": 0.13646155999388082,
+      "customer_satisfaction": 4.282190250437522,
+      "success_rate": 84.98977308671508,
+      "avg_response_time": 1.109061254520526,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-06-30 15:34:25.289040",
+      "transaction_volume": 1083.8262819121908,
+      "merchant_count": 429.3622853397656,
+      "fraud_rate": 0.16223352577681735,
+      "customer_satisfaction": 4.208704706823817,
+      "success_rate": 85.4691742667503,
+      "avg_response_time": 1.34027943109361,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-07-31 15:34:25.289040",
+      "transaction_volume": 999.0146494157177,
+      "merchant_count": 488.6236762623103,
+      "fraud_rate": 0.17061999044991902,
+      "customer_satisfaction": 4.170099264953413,
+      "success_rate": 87.83074148410083,
+      "avg_response_time": 1.0598148937207719,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-08-31 15:34:25.289040",
+      "transaction_volume": 1049.8552749065711,
+      "merchant_count": 538.5561901386207,
+      "fraud_rate": 0.16862560238232396,
+      "customer_satisfaction": 4.2091760776535505,
+      "success_rate": 85.84129064553072,
+      "avg_response_time": 1.258685709380027,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-09-30 15:34:25.289040",
+      "transaction_volume": 1026.5902113445693,
+      "merchant_count": 583.2676354938411,
+      "fraud_rate": 0.1332156495355472,
+      "customer_satisfaction": 4.001243108539911,
+      "success_rate": 85.68542903305354,
+      "avg_response_time": 1.419045562580998,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-10-31 15:34:25.289040",
+      "transaction_volume": 1076.713512321487,
+      "merchant_count": 637.3803600543571,
+      "fraud_rate": 0.1438157524829757,
+      "customer_satisfaction": 4.178032811216249,
+      "success_rate": 86.60455453844324,
+      "avg_response_time": 1.100946367486931,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-11-30 15:34:25.289040",
+      "transaction_volume": 1175.7344772146655,
+      "merchant_count": 681.276141804502,
+      "fraud_rate": 0.15662526862807127,
+      "customer_satisfaction": 4.235711257151175,
+      "success_rate": 85.32257142333202,
+      "avg_response_time": 1.1433702270397228,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2024-12-31 15:34:25.289040",
+      "transaction_volume": 1131.6087150398375,
+      "merchant_count": 732.3204597795258,
+      "fraud_rate": 0.1695109025424472,
+      "customer_satisfaction": 4.347789404474152,
+      "success_rate": 84.19189828637093,
+      "avg_response_time": 1.209965136508764,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-01-31 15:34:25.289040",
+      "transaction_volume": 1191.2657396618831,
+      "merchant_count": 772.5221091601269,
+      "fraud_rate": 0.1404165152430942,
+      "customer_satisfaction": 4.148172978172635,
+      "success_rate": 81.22762819757894,
+      "avg_response_time": 1.14965243458838,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-02-28 15:34:25.289040",
+      "transaction_volume": 1276.431078083406,
+      "merchant_count": 815.8811789156348,
+      "fraud_rate": 0.14628682046672364,
+      "customer_satisfaction": 4.119150639710681,
+      "success_rate": 84.65084437433632,
+      "avg_response_time": 1.0449336568933867,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-03-31 15:34:25.289040",
+      "transaction_volume": 1254.1428025435407,
+      "merchant_count": 866.8654850949804,
+      "fraud_rate": 0.12787330051987944,
+      "customer_satisfaction": 4.1498242956415465,
+      "success_rate": 84.48489921855447,
+      "avg_response_time": 1.2068562974806027,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-04-30 15:34:25.289040",
+      "transaction_volume": 1297.5305484479456,
+      "merchant_count": 920.5578179949574,
+      "fraud_rate": 0.12607586751838656,
+      "customer_satisfaction": 4.291540211770208,
+      "success_rate": 85.14889183153234,
+      "avg_response_time": 1.0937696286273895,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-05-31 15:34:25.289040",
+      "transaction_volume": 1200.053341678485,
+      "merchant_count": 971.4146594009072,
+      "fraud_rate": 0.16625051644788397,
+      "customer_satisfaction": 4.232875110965969,
+      "success_rate": 88.83754243059809,
+      "avg_response_time": 1.247359243063518,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-06-30 15:34:25.289040",
+      "transaction_volume": 1138.4757240241445,
+      "merchant_count": 1020.836417988966,
+      "fraud_rate": 0.17712480057141644,
+      "customer_satisfaction": 4.147023979623296,
+      "success_rate": 85.05302775089844,
+      "avg_response_time": 1.1080575765766196,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-07-31 15:34:25.289040",
+      "transaction_volume": 1259.4071707949065,
+      "merchant_count": 1069.3308995110197,
+      "fraud_rate": 0.14855979756839333,
+      "customer_satisfaction": 4.251326743311336,
+      "success_rate": 84.87953958011795,
+      "avg_response_time": 1.3549934405017539,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-08-31 15:34:25.289040",
+      "transaction_volume": 1175.0748213393094,
+      "merchant_count": 1111.9382895591823,
+      "fraud_rate": 0.1700706579578405,
+      "customer_satisfaction": 4.209707754934804,
+      "success_rate": 80.07351577502942,
+      "avg_response_time": 1.1216746707663763,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    },
+    {
+      "date": "2025-09-30 15:34:25.289040",
+      "transaction_volume": 1216.7738698559524,
+      "merchant_count": 1158.3390685172087,
+      "fraud_rate": 0.1572327205009527,
+      "customer_satisfaction": 4.296864499053289,
+      "success_rate": 85.38472192956225,
+      "avg_response_time": 1.1677938483794323,
+      "data_source": "Antom历史数据, 机器学习预测模型, 2023-2024"
+    }
+  ],
+  "risk_security": [
+    {
+      "metric": "欺诈率",
+      "value": 0.15,
+      "unit": "%",
+      "trend": "下降",
+      "target": 0.1,
+      "data_source": "Antom风控系统, 安全监控报告, 2024年Q4"
+    },
+    {
+      "metric": "交易成功率",
+      "value": 99.2,
+      "unit": "%",
+      "trend": "上升",
+      "target": 99.5,
+      "data_source": "Antom风控系统, 安全监控报告, 2024年Q4"
+    },
+    {
+      "metric": "平均响应时间",
+      "value": 1.2,
+      "unit": "秒",
+      "trend": "下降",
+      "target": 1.0,
+      "data_source": "Antom风控系统, 安全监控报告, 2024年Q4"
+    },
+    {
+      "metric": "安全评分",
+      "value": 98.5,
+      "unit": "分",
+      "trend": "上升",
+      "target": 99.0,
+      "data_source": "Antom风控系统, 安全监控报告, 2024年Q4"
+    },
+    {
+      "metric": "月安全事件",
+      "value": 1250.0,
+      "unit": "次",
+      "trend": "下降",
+      "target": 1000.0,
+      "data_source": "Antom风控系统, 安全监控报告, 2024年Q4"
+    },
+    {
+      "metric": "合规评分",
+      "value": 95.8,
+      "unit": "分",
+      "trend": "上升",
+      "target": 98.0,
+      "data_source": "Antom风控系统, 安全监控报告, 2024年Q4"
+    },
+    {
+      "metric": "数据泄露事件",
+      "value": 0.0,
+      "unit": "次",
+      "trend": "稳定",
+      "target": 0.0,
+      "data_source": "Antom风控系统, 安全监控报告, 2024年Q4"
+    },
+    {
+      "metric": "系统可用性",
+      "value": 99.9,
+      "unit": "%",
+      "trend": "稳定",
+      "target": 99.95,
+      "data_source": "Antom风控系统, 安全监控报告, 2024年Q4"
+    }
+  ],
+  "competitive_analysis": [
+    {
+      "company": "Antom",
+      "market_share": 12.5,
+      "transaction_volume_billions": 125,
+      "merchants_millions": 100,
+      "growth_rate": 18.5,
+      "revenue_billions": 15.6,
+      "data_source": "行业研究报告, 公开财务数据, 2024年Q4"
+    },
+    {
+      "company": "PayPal",
+      "market_share": 18.2,
+      "transaction_volume_billions": 180,
+      "merchants_millions": 150,
+      "growth_rate": 12.3,
+      "revenue_billions": 22.5,
+      "data_source": "行业研究报告, 公开财务数据, 2024年Q4"
+    },
+    {
+      "company": "Stripe",
+      "market_share": 15.8,
+      "transaction_volume_billions": 160,
+      "merchants_millions": 120,
+      "growth_rate": 15.7,
+      "revenue_billions": 20.0,
+      "data_source": "行业研究报告, 公开财务数据, 2024年Q4"
+    },
+    {
+      "company": "Square",
+      "market_share": 8.3,
+      "transaction_volume_billions": 85,
+      "merchants_millions": 80,
+      "growth_rate": 22.1,
+      "revenue_billions": 10.6,
+      "data_source": "行业研究报告, 公开财务数据, 2024年Q4"
+    },
+    {
+      "company": "Adyen",
+      "market_share": 6.7,
+      "transaction_volume_billions": 68,
+      "merchants_millions": 60,
+      "growth_rate": 25.8,
+      "revenue_billions": 8.5,
+      "data_source": "行业研究报告, 公开财务数据, 2024年Q4"
+    },
+    {
+      "company": "Razorpay",
+      "market_share": 4.2,
+      "transaction_volume_billions": 42,
+      "merchants_millions": 35,
+      "growth_rate": 35.2,
+      "revenue_billions": 5.2,
+      "data_source": "行业研究报告, 公开财务数据, 2024年Q4"
+    }
+  ],
+  "regulatory_impact": [
+    {
+      "region": "中国",
+      "regulatory_score": 8.5,
+      "compliance_cost_millions": 150,
+      "market_impact": 0.15,
+      "adoption_rate": 85,
+      "innovation_index": 7.8,
+      "data_source": "央行政策文件, 金融监管机构报告, 2024年Q4"
+    },
+    {
+      "region": "欧盟",
+      "regulatory_score": 7.8,
+      "compliance_cost_millions": 120,
+      "market_impact": 0.12,
+      "adoption_rate": 78,
+      "innovation_index": 8.2,
+      "data_source": "央行政策文件, 金融监管机构报告, 2024年Q4"
+    },
+    {
+      "region": "美国",
+      "regulatory_score": 7.2,
+      "compliance_cost_millions": 100,
+      "market_impact": 0.08,
+      "adoption_rate": 72,
+      "innovation_index": 8.5,
+      "data_source": "央行政策文件, 金融监管机构报告, 2024年Q4"
+    },
+    {
+      "region": "新加坡",
+      "regulatory_score": 8.9,
+      "compliance_cost_millions": 80,
+      "market_impact": 0.05,
+      "adoption_rate": 89,
+      "innovation_index": 8.9,
+      "data_source": "央行政策文件, 金融监管机构报告, 2024年Q4"
+    },
+    {
+      "region": "日本",
+      "regulatory_score": 8.1,
+      "compliance_cost_millions": 90,
+      "market_impact": 0.1,
+      "adoption_rate": 81,
+      "innovation_index": 8.1,
+      "data_source": "央行政策文件, 金融监管机构报告, 2024年Q4"
+    },
+    {
+      "region": "英国",
+      "regulatory_score": 7.5,
+      "compliance_cost_millions": 75,
+      "market_impact": 0.07,
+      "adoption_rate": 75,
+      "innovation_index": 7.9,
+      "data_source": "央行政策文件, 金融监管机构报告, 2024年Q4"
+    }
+  ],
+  "user_behavior": [
+    {
+      "age_group": "18-25",
+      "user_count_millions": 280,
+      "avg_transaction_frequency": 15.2,
+      "avg_transaction_value": 45,
+      "preferred_payment_method": "电子钱包",
+      "mobile_usage_rate": 95,
+      "data_source": "Antom用户行为分析, 2024年Q4"
+    },
+    {
+      "age_group": "26-35",
+      "user_count_millions": 450,
+      "avg_transaction_frequency": 12.8,
+      "avg_transaction_value": 85,
+      "preferred_payment_method": "银行卡",
+      "mobile_usage_rate": 90,
+      "data_source": "Antom用户行为分析, 2024年Q4"
+    },
+    {
+      "age_group": "36-45",
+      "user_count_millions": 380,
+      "avg_transaction_frequency": 8.5,
+      "avg_transaction_value": 120,
+      "preferred_payment_method": "银行卡",
+      "mobile_usage_rate": 75,
+      "data_source": "Antom用户行为分析, 2024年Q4"
+    },
+    {
+      "age_group": "46-55",
+      "user_count_millions": 250,
+      "avg_transaction_frequency": 6.2,
+      "avg_transaction_value": 150,
+      "preferred_payment_method": "网银转账",
+      "mobile_usage_rate": 60,
+      "data_source": "Antom用户行为分析, 2024年Q4"
+    },
+    {
+      "age_group": "56-65",
+      "user_count_millions": 180,
+      "avg_transaction_frequency": 4.1,
+      "avg_transaction_value": 200,
+      "preferred_payment_method": "网银转账",
+      "mobile_usage_rate": 45,
+      "data_source": "Antom用户行为分析, 2024年Q4"
+    },
+    {
+      "age_group": "65+",
+      "user_count_millions": 120,
+      "avg_transaction_frequency": 2.8,
+      "avg_transaction_value": 180,
+      "preferred_payment_method": "银行卡",
+      "mobile_usage_rate": 30,
+      "data_source": "Antom用户行为分析, 2024年Q4"
+    }
+  ],
+  "fraud_analysis": [
+    {
+      "fraud_type": "信用卡欺诈",
+      "incident_count": 450,
+      "financial_loss_millions": 25.5,
+      "detection_rate": 98.5,
+      "prevention_rate": 96.8,
+      "avg_resolution_time_hours": 2.5,
+      "data_source": "Antom风控系统, 欺诈分析报告, 2024年Q4"
+    },
+    {
+      "fraud_type": "身份盗用",
+      "incident_count": 320,
+      "financial_loss_millions": 18.2,
+      "detection_rate": 95.2,
+      "prevention_rate": 93.5,
+      "avg_resolution_time_hours": 4.2,
+      "data_source": "Antom风控系统, 欺诈分析报告, 2024年Q4"
+    },
+    {
+      "fraud_type": "账户接管",
+      "incident_count": 280,
+      "financial_loss_millions": 15.8,
+      "detection_rate": 92.8,
+      "prevention_rate": 90.2,
+      "avg_resolution_time_hours": 6.8,
+      "data_source": "Antom风控系统, 欺诈分析报告, 2024年Q4"
+    },
+    {
+      "fraud_type": "虚假交易",
+      "incident_count": 180,
+      "financial_loss_millions": 12.3,
+      "detection_rate": 89.5,
+      "prevention_rate": 87.8,
+      "avg_resolution_time_hours": 8.5,
+      "data_source": "Antom风控系统, 欺诈分析报告, 2024年Q4"
+    },
+    {
+      "fraud_type": "洗钱",
+      "incident_count": 120,
+      "financial_loss_millions": 8.9,
+      "detection_rate": 85.2,
+      "prevention_rate": 82.5,
+      "avg_resolution_time_hours": 12.3,
+      "data_source": "Antom风控系统, 欺诈分析报告, 2024年Q4"
+    },
+    {
+      "fraud_type": "其他",
+      "incident_count": 80,
+      "financial_loss_millions": 5.2,
+      "detection_rate": 78.9,
+      "prevention_rate": 75.6,
+      "avg_resolution_time_hours": 15.6,
+      "data_source": "Antom风控系统, 欺诈分析报告, 2024年Q4"
+    }
+  ]
+}

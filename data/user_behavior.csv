@@ -1,0 +1,7 @@
+﻿age_group,user_count_millions,avg_transaction_frequency,avg_transaction_value,preferred_payment_method,mobile_usage_rate,data_source
+18-25,280,15.2,45,电子钱包,95,"Antom用户行为分析, 2024年Q4"
+26-35,450,12.8,85,银行卡,90,"Antom用户行为分析, 2024年Q4"
+36-45,380,8.5,120,银行卡,75,"Antom用户行为分析, 2024年Q4"
+46-55,250,6.2,150,网银转账,60,"Antom用户行为分析, 2024年Q4"
+56-65,180,4.1,200,网银转账,45,"Antom用户行为分析, 2024年Q4"
+65+,120,2.8,180,银行卡,30,"Antom用户行为分析, 2024年Q4"
